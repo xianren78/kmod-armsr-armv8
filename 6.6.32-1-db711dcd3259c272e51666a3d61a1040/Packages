@@ -65,8 +65,8 @@ Section: base
 Architecture: aarch64_generic
 Installed-Size: 47658
 Filename: base-files_1-r23809-234f1a2efa_aarch64_generic.ipk
-Size: 48694
-SHA256sum: 180919bf03125b71e9407868fff337faa149cc9d41bcf0c31310ba741a74cee9
+Size: 48692
+SHA256sum: 46af225d54a678af1607fae0d66f4258decdab383971d6f459009374e6e368fb
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -4919,10 +4919,10 @@ Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040)
 License: GPL-2.0
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 54821
+Installed-Size: 54831
 Filename: kmod-ikconfig_6.6.32-1_aarch64_generic.ipk
-Size: 55629
-SHA256sum: 3670ed80cde79859332b66008d96d2c5a39379f5b2f029c8e265a3810e76d4d3
+Size: 55643
+SHA256sum: 30659c77ebd48a18eead493ae68c4db936cca8949e5be49775b6ac0de39c15c8
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-imx2-wdt
@@ -8854,10 +8854,10 @@ Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), airoha-en8811h-fir
 License: GPL-2.0
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 97
+Installed-Size: 6288
 Filename: kmod-phy-airoha-en8811h_6.6.32-1_aarch64_generic.ipk
-Size: 858
-SHA256sum: 614126d8482bfa4a41a2dcffdb6d755c2aaabe2b834efcab450b4f8226f788e1
+Size: 7054
+SHA256sum: 9b702fbca174c4b1413f58126f78138fe603bbf5b1c08cdb77e7ec21ab322790
 Description:  Kernel modules for Airoha EN8811H 2.5G Ethernet PHY
 
 Package: kmod-phy-amd
@@ -8878,10 +8878,10 @@ Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-libphy, kmod-
 License: GPL-2.0
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 9887
+Installed-Size: 10862
 Filename: kmod-phy-aquantia_6.6.32-1_aarch64_generic.ipk
-Size: 10560
-SHA256sum: 329fb745b12ca8e605ce8dd8010683a9ced4b9e780281aadcfc1b0a42ceeaa58
+Size: 11401
+SHA256sum: fc12d53d3c778a417b4526a30d7b69bcaa29ea4f63b8e31cdab59be6c50aebd0
 Description:  Kernel modules for Aquantia Ethernet PHYs
 
 Package: kmod-phy-ax88796b
@@ -11010,6 +11010,18 @@ SHA256sum: 54188567a7a1f27e1509ca0e06d2e208e12bdc6f71f7fb3fbea489cc212cd949
 Description:  Kernel module for BBRv3 (Bottleneck Bandwidth and RTT) TCP congestion
  control. It requires the fq ("Fair Queue") pacing packet scheduler.
  For kernel 6.4+, TCP internal pacing is implemented as fallback.
+
+Package: kmod-tcp-brutal
+Version: 6.6.32+1.0.2-1
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040)
+License: GPL-3.0
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 3024
+Filename: kmod-tcp-brutal_6.6.32+1.0.2-1_aarch64_generic.ipk
+Size: 3792
+SHA256sum: f029552d71b82031aea76d717c881cf0afaf35a407b3ca318f8b3b0c1b6c470d
+Description:  TCP Brutal congestion control
 
 Package: kmod-tcp-hybla
 Version: 6.6.32-1
